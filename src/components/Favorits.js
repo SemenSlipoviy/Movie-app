@@ -5,8 +5,7 @@ const Favorits = () => {
   const arr = Object.keys({ ...localStorage }).map((item) =>
     JSON.parse(localStorage.getItem(item))
   );
-
-  return (
+ return (
     <>
       <div className="film-cards">
         {arr.map((item) => (
