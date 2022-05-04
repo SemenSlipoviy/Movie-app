@@ -125,7 +125,7 @@ const GenreList = () => {
               ))}
               <Link to="/">
                 <button className="genre-btn" onClick={findGenres}>
-                  Find genre
+                  Find 
                 </button>
               </Link>
             </div>
